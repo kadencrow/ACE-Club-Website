@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+#menu {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    background-color:#16161D;
+    position:sticky;
+    top:0px;
+    justify-content:space-evenly;
+    border-radius:5px;
+}
+#menu > div {
+    padding:10px;
+    margin:5px;
+    text-align:center;
+}
+body {
+    font-family:Courier Prime;
+}
+a:link {
+    color: #f2f0ef ;
+    text-decoration: none;
+}
+a:visited {
+    color :#f2f0ef ;
+    text-decoration: none;
+}
+.banner {
+    background-image:url("acebanner.pdf");
+    background-color:red;
+    background-attachment:scroll;
+}
+.banner > p {
+    margin: 15px; 
+}
+.banner > h2 {
+    margin:15px; 
+}
+footer {
+    background-color:#16161D ;
+    color:#f2f0ef;
+}
+#homebody h2{
+    text-align:center;
+}
+#tutorbody {
+    margin: 50px;
+}
+#bookingbody {
+    margin: 50px;
+}
+#introductions {
+    margin: 50px;
+}
+h1 {
+    text-align:center;
+}
+input {
+    font-family: Courier Prime;
+    background-color:#a42821;
+    color:#f2f0ef ;
+    border: none;
+    border-radius: 4px;
+}
+@media only screen and (max-width: 600px) {
+    #tutorbody {
+    margin: 10px;
+}
+#bookingbody {
+    margin: 10px;
+}
+
+#news{
+    margin:25px;
+}
+}
+.logo {
+    border-radius:15px;
+}
+#news {
+    background-color:#a42821;
+    border: 5px solid #FF746C;
+    color:#f2f0ef ;
+    text-align:center;
+    border-radius:20px;
+    margin:70px;
+}
+footer {
+    border-radius:5px;
+    text-align:center;
+}
+.foot {
+    margin:20px;
+}
+#logobottom {
+    padding:10px;
+    margin:5px;
+    text-align:center;
+     position:Fixed;
+    bottom :2px;
+     border-radius:5px;
+}
+#box {
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    position:sticky;
+    top:0px;
+    justify-content:space-evenly;
+    border-radius:5px;
+}
+#box > div {
+    padding:10px;
+    margin:5px;
+    text-align:center;
+    border:5px dashed #a42821;
+}
+
+
+
+
+
+
