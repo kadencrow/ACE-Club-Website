@@ -1,4 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'CourierPrime';
+    src: url('fonts/CourierPrime-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CourierPrime';
+    src: url('fonts/CourierPrime-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'CourierPrime';
+    src: url('fonts/CourierPrime-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'CourierPrime';
+    src: url('fonts/CourierPrime-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
 #menu {
     display:flex;
     flex-wrap:wrap;
@@ -15,7 +40,7 @@
     text-align:center;
 }
 body {
-    font-family:Courier Prime;
+    font-family: CourierPrime;
 }
 a:link {
     color: #f2f0ef ;
@@ -26,9 +51,13 @@ a:visited {
     text-decoration: none;
 }
 .banner {
-    background-image:url("acebanner.pdf");
+    background-image:url("acebanner.png");
     background-color:red;
-    background-attachment:scroll;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: calc(100% * 0.41);
+    width: 100%;
 }
 .banner > p {
     margin: 15px; 
@@ -56,7 +85,7 @@ h1 {
     text-align:center;
 }
 input {
-    font-family: Courier Prime;
+    font-family: CourierPrime;
     background-color:#a42821;
     color:#f2f0ef ;
     border: none;
