@@ -14,8 +14,8 @@ const indexText = `
             Upcoming Events
         </h3>
 
-        <p>Our first meeting will occur on: ____. </p>
-        <p>Club Rush is approaching! club Rush: _. </p>
+        <p>Pioneer meeting occuring on October 6th during lunch in P5.</p>
+        <p>Tutoring Sessions occuring at Los Alamitos and Simonds will begin soon.</p>
 
     </div>
 
@@ -295,6 +295,21 @@ const sessionsText = `
             School by School Times and Locations
         </h1>
 
+         <div>
+
+            <h3>
+                Simonds
+            </h3>
+
+            <p> 
+                Held in the Band and Orchestra Rooms respectively 
+            </p>
+
+            <p> 
+                Tuesdays and Thursdays ar 2:30 to 4:00
+            </p>
+
+        </div>
         <div>
 
             <h3>
@@ -319,11 +334,11 @@ const sessionsText = `
             </h3>
 
             <p> 
-                Held in ___ 
+                Room to be Confirmed
             </p>
 
             <p>
-                Mondays from 3:20 to 4:20
+                Mondays, specific time unconfirmed
             </p>
 
         </div>
